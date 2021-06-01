@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/colorPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_baseline_color_lens_24"
+            />
+        <Button
+            android:id="@+id/eraseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/eraser_variant"
+            />
+        <Button
+            android:id="@+id/undoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_baseline_undo_24"
+            />
+
+        <Button
+            android:id="@+id/redoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_baseline_redo_24" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_baseline_save_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:layout_marginTop="4dp">
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:padding="4dp"
+            android:id="@+id/discreteSeekBar"
+            android:min="18"
+            android:max="44"
+            android:progress="22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</LinearLayout>
